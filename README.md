@@ -6,13 +6,11 @@ This project analyzes Instagram engagement data for @treehut to provide actionab
 
 • **1. Brand Awareness & Reach** - Grow follower base and expand brand visibility in the beauty/skincare space
 
-• **2. Community Building & Engagement** - Foster loyal customer relationships and create authentic product conversations
+• **2. Customer Insights & Feedback** - Gather product feedback and identify market expansion opportunities
 
 • **3. Sales & Conversion** - Drive traffic and convert social engagement into purchases
 
-• **4. Customer Insights & Feedback** - Gather product feedback and identify market expansion opportunities
-
-• **5. Brand Reputation Management** - Monitor sentiment and maintain consistent brand voice
+• **4. Brand Reputation Management** - Monitor sentiment and maintain consistent brand voice
 
 ## Approach
 
@@ -34,14 +32,6 @@ The analysis bridges marketing intent with customer reality, enabling data-drive
 • **Timing maximizes visibility** - Peak engagement occurs at 7-8 PM (2,113 and 1,502 comments respectively), providing optimal scheduling for high-impact content. **Recommendation:** Reserve this prime window for giveaways, PR campaigns, and major announcements.
   - *See: Hourly Engagement Distribution chart*
 
-### Community Building & Engagement
-
-*Analysis findings and strategic recommendations for fostering loyal customer relationships and creating authentic product conversations*
-
-### Sales & Conversion
-
-*Analysis findings and strategic recommendations for driving traffic and converting social engagement into purchases*
-
 ### Customer Insights & Recommendations
 
 • **Berry scents represent massive untapped demand** - Only 2 berry-scented posts generated 45 comments per post, the highest engagement rate of any scent category, indicating significant market opportunity. **Recommendation:** Prioritize berry scent line expansion and test market response with limited releases.
@@ -54,6 +44,10 @@ The analysis bridges marketing intent with customer reality, enabling data-drive
   - *See: Comment "Please carry these in Canada! I miss them so much!" (media_id: 1098364052333950)*
 
 • **Vanilla market saturation evident** - Despite 40 vanilla-related posts, engagement averages only 7.9 comments per post, the lowest among major scent categories, indicating customer fatigue. **Recommendation:** Reduce vanilla content frequency and explore fresh scent profiles to re-energize the product line.
+### Sales & Conversion
+
+• **Include Conversion Data in Analysis** - While product performance (lotions: 29.8 comments/post vs scrubs: 15.9 comments/post) and scent preferences (berry: 45 comments/post) suggest conversion opportunities, the core hypothesis that engagement correlates with sales needs validation. **Recommendation:** Integrate actual conversion data by tracking Instagram traffic with UTM parameters, measuring sales performance of high-engagement products, and correlating social campaigns with purchase behavior to validate or refine engagement-based strategies.
+  - *See: Average Engagement by Product Type chart, Average Engagement by Scent Type chart*
 
 ### Brand Reputation Management
 
