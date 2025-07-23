@@ -64,3 +64,24 @@ python sentiment_analysis.py 100
 - `brand_reputation_report.md` - Executive summary with insights
 
 **Note:** Sentiment analysis uses Claude Sonnet 4 API (costs apply) and provides post-level reputation insights.
+
+## Extension Proposal
+
+- This analysis does not include data on actual conversions. Next steps of this project would
+include that data, provided by Treehut, so that we could look for correlations between social media
+engagement and sales to determine the most relevant signals.
+
+- The sentiment analysis showed that promotions like PR campaigns or giveaways drive engagement, but
+not necessarily positive sentiment. Next steps would be to look at the types of comments that
+drive positive sentiment and focus on those types of content.
+
+- It may be useful to build a bot that can monitor comments automatically for Treehut to notify
+brand managers of comments that likely warrant a direct response.
+
+- A more thorough case should be constructed for the product recommendations made.
+
+## AI & Tool Usage Disclosure
+
+- Throughout the project, I have been using the Augment plugin for VS Code for interfacing with the data, as well as authoring report content and python scripting. I have been giving constant feedback, challenging assumptions, and directing attention to which parts of the project to focus on.
+
+- The sentiment analysis script uses Claude Sonnet 4 API to analyze customer sentiment in Instagram comments for brand reputation insights.
