@@ -22,33 +22,45 @@ Using the `engagements.csv` dataset containing Instagram post metadata and user 
 
 The analysis bridges marketing intent with customer reality, enabling data-driven decisions that move business metrics beyond vanity engagement numbers.
 
-## Insights & Recommendations
+## Analysis Results
 
-### Brand Awareness & Reach
+For detailed findings and strategic recommendations across all five business objectives, see:
 
-• **Strategic post types drive exponential reach** - PR recruitment posts (3,294 comments) and giveaways (201 avg) vastly outperform regular content (50 avg), with opportunity-based content generating the highest engagement. **Recommendation:** Balance content calendar with regular giveaways and periodic PR/influencer recruitment campaigns.
-  - *See: Top 10 Posts by Comment Count chart, Giveaway vs Regular post performance chart*
+**[📊 Final Insights & Recommendations](insights_and_recommendations.md)**
 
-• **Timing maximizes visibility** - Peak engagement occurs at 7-8 PM (2,113 and 1,502 comments respectively), providing optimal scheduling for high-impact content. **Recommendation:** Reserve this prime window for giveaways, PR campaigns, and major announcements.
-  - *See: Hourly Engagement Distribution chart*
+## Usage
 
-### Customer Insights & Recommendations
+### Engagement Analysis & Visualizations
 
-• **Berry scents represent massive untapped demand** - Only 2 berry-scented posts generated 45 comments per post, the highest engagement rate of any scent category, indicating significant market opportunity. **Recommendation:** Prioritize berry scent line expansion and test market response with limited releases.
-  - *See: Average Engagement by Scent Type chart*
+```bash
+# Text analysis only
+python treehut_analysis.py
 
-• **Product category hierarchy reveals customer preferences** - Lotions (29.8 comments/post) and oils (23.2 comments/post) significantly outperform scrubs (15.9 comments/post), suggesting customers prioritize hydration over exfoliation. **Recommendation:** Shift product development and marketing focus toward moisturizing products.
-  - *See: Average Engagement by Product Type chart*
+# All visualizations (11 charts in organized subdirectories)
+python treehut_analysis.py --plots
+```
 
-• **International expansion opportunity clearly signaled** - Customer comments explicitly request product availability in other markets, with Canada being the most frequently mentioned. **Recommendation:** Conduct market research for international expansion, starting with Canada.
-  - *See: Comment "Please carry these in Canada! I miss them so much!" (media_id: 1098364052333950)*
+**Outputs:**
+- Text summary of engagement patterns, product performance, and content insights
+- 11 individual chart files organized in `visualizations/` subdirectories
+- Charts cover core engagement, product/scent analysis, and customer insights
 
-• **Vanilla market saturation evident** - Despite 40 vanilla-related posts, engagement averages only 7.9 comments per post, the lowest among major scent categories, indicating customer fatigue. **Recommendation:** Reduce vanilla content frequency and explore fresh scent profiles to re-energize the product line.
-### Sales & Conversion
+### Sentiment Analysis (Requires API Key)
 
-• **Include Conversion Data in Analysis** - While product performance (lotions: 29.8 comments/post vs scrubs: 15.9 comments/post) and scent preferences (berry: 45 comments/post) suggest conversion opportunities, the core hypothesis that engagement correlates with sales needs validation. **Recommendation:** Integrate actual conversion data by tracking Instagram traffic with UTM parameters, measuring sales performance of high-engagement products, and correlating social campaigns with purchase behavior to validate or refine engagement-based strategies.
-  - *See: Average Engagement by Product Type chart, Average Engagement by Scent Type chart*
+```bash
+# Set your Anthropic API key
+export ANTHROPIC_API_KEY='your-api-key-here'
 
-### Brand Reputation Management
+# Run with default sample (50 comments)
+python sentiment_analysis.py
 
-*Analysis findings and strategic recommendations for monitoring sentiment and maintaining consistent brand voice*
+# Run with custom sample size
+python sentiment_analysis.py 100
+```
+
+**Outputs:**
+- 4 sentiment visualization charts in `visualizations/brand_reputation/`
+- `post_sentiment_analysis.csv` - Detailed post-level sentiment scores
+- `brand_reputation_report.md` - Executive summary with insights
+
+**Note:** Sentiment analysis uses Claude Sonnet 4 API (costs apply) and provides post-level reputation insights.
