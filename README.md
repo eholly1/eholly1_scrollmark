@@ -24,7 +24,7 @@ Using the `engagements.csv` dataset containing Instagram post metadata and user 
 
 The analysis bridges marketing intent with customer reality, enabling data-driven decisions that move business metrics beyond vanity engagement numbers.
 
-## Insights & Feedback
+## Insights & Recommendations
 
 ### Brand Awareness & Reach
 
@@ -42,9 +42,18 @@ The analysis bridges marketing intent with customer reality, enabling data-drive
 
 *Analysis findings and strategic recommendations for driving traffic and converting social engagement into purchases*
 
-### Customer Insights & Feedback
+### Customer Insights & Recommendations
 
-*Analysis findings and strategic recommendations for gathering product feedback and identifying market expansion opportunities*
+• **Berry scents represent massive untapped demand** - Only 2 berry-scented posts generated 45 comments per post, the highest engagement rate of any scent category, indicating significant market opportunity. **Recommendation:** Prioritize berry scent line expansion and test market response with limited releases.
+  - *See: Average Engagement by Scent Type chart*
+
+• **Product category hierarchy reveals customer preferences** - Lotions (29.8 comments/post) and oils (23.2 comments/post) significantly outperform scrubs (15.9 comments/post), suggesting customers prioritize hydration over exfoliation. **Recommendation:** Shift product development and marketing focus toward moisturizing products.
+  - *See: Average Engagement by Product Type chart*
+
+• **International expansion opportunity clearly signaled** - Customer comments explicitly request product availability in other markets, with Canada being the most frequently mentioned. **Recommendation:** Conduct market research for international expansion, starting with Canada.
+  - *See: Comment "Please carry these in Canada! I miss them so much!" (media_id: 1098364052333950)*
+
+• **Vanilla market saturation evident** - Despite 40 vanilla-related posts, engagement averages only 7.9 comments per post, the lowest among major scent categories, indicating customer fatigue. **Recommendation:** Reduce vanilla content frequency and explore fresh scent profiles to re-energize the product line.
 
 ### Brand Reputation Management
 
