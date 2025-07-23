@@ -78,6 +78,8 @@ drive positive sentiment and focus on those types of content.
 - It may be useful to build a bot that can monitor comments automatically for Treehut to notify
 brand managers of comments that likely warrant a direct response.
 
+- Provide an AI assistant to suggest language to brand managers, when authoring posts and comments, so that the language will resonate well with the target audience.
+
 - A more thorough case should be constructed for the product recommendations made.
 
 ## AI & Tool Usage Disclosure
