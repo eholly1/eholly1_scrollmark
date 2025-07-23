@@ -172,15 +172,6 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Project-specific
-visualizations/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.pdf
-
 # Data files (uncomment if you want to ignore data files)
 # *.csv
 # *.json
